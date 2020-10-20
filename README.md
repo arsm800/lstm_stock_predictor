@@ -1,4 +1,4 @@
-# LSTM Stock Predictor - Analysis
+# LSTM Stock Predictor - Analysis (Submitted 10/9/20)
 
 Of the two models tested, the model utilizing closing prices as the input resulted in slightly lower loss.  After 10 epochs, the sum of mean squared error was 0.0121.  Evaluating this model resulted in a loss of 0.0085.  On the other hand, the model based on the fear and greed index resulted in slightly higher error and loss: a sum of mean squared error of 0.0429 after 10 epochs and a model loss of 0.0706.
 
