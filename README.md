@@ -1,4 +1,12 @@
-# LSTM Stock Predictor - Analysis (Submitted 10/9/20)
+# LSTM Stock Predictor - Analysis
+
+## Technologies Used
+
+* [Python](https://www.python.org)
+* [pandas](https://pandas.pydata.org)
+* [NumPy](https://numpy.org)
+* [hvplot](https://hvplot.holoviz.org)
+* [TensorFlow](https://www.tensorflow.org) - [LSTM](https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM)
 
 Of the two models tested, the model utilizing closing prices as the input resulted in slightly lower loss.  After 10 epochs, the sum of mean squared error was 0.0121.  Evaluating this model resulted in a loss of 0.0085.  On the other hand, the model based on the fear and greed index resulted in slightly higher error and loss: a sum of mean squared error of 0.0429 after 10 epochs and a model loss of 0.0706.
 
